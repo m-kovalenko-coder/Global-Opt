@@ -1,0 +1,71 @@
+.map {
+    position: relative;
+    height: 500px;
+    &__block {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-5%) translateY(-65%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+    &__icon {
+        &:hover {
+            .map__block {
+                display: hidden;
+            }
+        }
+    }
+    &__text {
+        position: relative;
+        width: 228px;
+        height: 102px;
+        padding: 27px 50px 27px 32px;
+        background-color: #ffffff;
+        border-radius: 3px;
+    }
+    &__corner {
+        position: absolute;
+        width: 25px;
+        height: 25px;
+        top: 50%;
+        left: 0;
+        background-color: #fff;
+        transform: rotate(45deg) translateX(-73%);
+    }
+    &__title {
+        color: $main-color;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 20px;
+    }
+    &__descr {
+        color: #3a3a3a;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 20px;
+    }
+    &__email {
+        color: $main-color;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 20px;
+        text-decoration: underline;
+        transition: .5s all;
+        &:hover {
+            font-size: 18px;
+        }
+    }
+    &__phone {
+        text-decoration: none;
+        color: $main-color;
+        font-size: 14px;
+        line-height: 20px;
+        transition: .5s all;
+        &:hover {
+            font-size: 18px;
+        }
+    }
+}

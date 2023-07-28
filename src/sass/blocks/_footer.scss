@@ -1,0 +1,96 @@
+.footer {
+    background-color: #25333c;
+    padding: 24px 0 28px 0;
+    &__head {
+        padding-bottom: 26px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__widget {
+        display: inherit;
+        align-items: center;
+        column-gap: 43px
+    }
+    &__icon {
+        img {
+            height: 71px;
+            width: 68px;
+        }
+    }
+    &__title {
+        color: #fff;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 20px;
+    }
+    &__contact {
+        display: inherit;
+        column-gap: 19px;
+        align-items: center;
+    }
+    // &__details {
+    // }
+    &__text {
+        color: #fff;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 21px;
+        text-align: right;
+    }
+    &__phone {
+        color: #fff;
+        font-size: 19px;
+        font-family: Roboto;
+        font-weight: 700;
+        line-height: 19px;
+        text-decoration: none;
+        transition: .5s all;
+        &:hover {
+            color: $main-color;
+        }
+    }
+    &__btn {
+        width: 160px;
+        height: 45px;
+        background-color: $main-color;
+    }
+    &__hr {
+        width: 100%;
+        background-color: #fff;
+        opacity: .3;
+    }
+    &__footer {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 19px;
+    }
+    &__site {
+        color: #ffffff99;
+        font-size: 13px;
+        font-weight: 300;
+        line-height: 17px;
+        text-align: center;
+    }
+    &__policy {
+        margin-right: 245px;
+        color: $main-color;
+        font-size: 13px;
+        font-weight: 300;
+        line-height: 17px;
+        text-align: center;
+        text-decoration: underline;
+    }
+    &__create {
+        display: inherit;
+        align-items: center;
+    }
+    &__name {
+        color: #ffffff99;
+        font-size: 13px;
+        font-weight: 300;
+        line-height: 17px;
+        text-align: center;
+    }
+}

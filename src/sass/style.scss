@@ -1,0 +1,51 @@
+@import 'libs/normalize';
+@import 'libs/slick';
+@import 'https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&family=Roboto:wght@300;400;700&display=swap';
+@import 'base/variables';
+@import 'base/mixins';
+
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.divider {
+    width: 148px;
+    height: 1px;
+    margin: 20px auto 15px auto;
+    background-color: #ec654c;
+}
+
+@import 'blocks/button';
+@import 'blocks/title';
+@import 'blocks/header';
+@import 'blocks/advantages';
+@import 'blocks/work';
+@import 'blocks/agent';
+@import 'blocks/delivery';
+@import 'blocks/manager';
+@import 'blocks/scheme';
+@import 'blocks/client';
+@import 'blocks/question';
+@import 'blocks/map';
+@import 'blocks/footer';
+
+
+
+
+// @import 'blocks/title';
+// @import 'blocks/sidepanel';
+// @import 'blocks/menu';
+// @import 'blocks/about';
+// @import 'blocks/resume';
+// @import 'blocks/skills';
+// @import 'blocks/portfolio';
+// @import 'blocks/price';
+// @import 'blocks/contacts';
+// @import 'blocks/media';

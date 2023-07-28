@@ -1,0 +1,63 @@
+.client {
+    padding: 51px 0 65px 0;
+    &__carousel {
+        margin-top: 30px;
+    }
+    &__item {
+        display: flex;
+        flex-direction: column;
+        transition: .5s all;
+    }
+    &__icon {
+        display: block;
+        margin: 0 auto;
+    }
+    &__name {
+        margin-top: 15px;
+        color: #3a3a3a;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 22px;
+        text-align: center;
+    }
+    &__text {
+        margin-top: 6px;
+        color: #3a3a3a;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 22px;
+        text-align: center;
+    }
+}
+
+.slick-prev,.slick-next{
+    border: none;
+    background: none;
+    outline: none;
+    position: absolute;
+    top: 12%;
+    z-index: 5;
+    cursor: pointer;
+}
+.slick-prev{
+    left: calc(50% - 114px);
+}
+.slick-next{
+    right: calc(50% - 114px);
+    transform: rotateY(180deg);
+}
+
+.slick-slide {
+    opacity: 0.3;
+    transform: scale(0.7);
+    outline: none;
+}
+.slick-center {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.slick-initialized .slick-slide {
+    display: flex;
+    justify-content: center;
+}

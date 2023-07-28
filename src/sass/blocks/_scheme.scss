@@ -1,0 +1,37 @@
+.scheme {
+    background-color: #f3f3f3;
+    padding: 51px 0 46px 0;
+    &__wrapper {
+        margin-top: 30px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 23px 36px;
+    }
+    &__item {
+        width: 258px;
+        display: flex;
+        flex-direction: column;
+    }
+    &__icon {
+        display: block;
+        margin: 0 auto;
+        width: 50px;
+    }
+    &__caption {
+        margin-top: 8px;
+        color: #ec644b;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 20px;
+        text-align: center;
+    }
+    &__text {
+        margin-top: 5px;
+        color: #3a3a3a;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 20px;
+        text-align: center;
+    }
+}

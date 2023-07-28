@@ -1,0 +1,28 @@
+.work {
+    padding: 51px 0 57px 0;
+    &__subtitle {
+        width: 880px;
+        margin: 0 auto;
+    }
+    &__wrapper {
+        margin-top: 37px;
+        display: flex;
+        gap: 30px;
+    }
+    &__text {
+        margin-top: 20px;
+        line-height: 22px;
+        color: #ec644b;
+        font-size: 18px;
+        font-weight: 700;
+        text-align: center;
+    }
+    &__desc {
+        margin-top: 4px;
+        color: #3a3a3a;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 22px;
+        text-align: center;
+    }
+}
